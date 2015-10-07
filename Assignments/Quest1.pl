@@ -5,7 +5,7 @@ sub printNum{
 	my @num=@_;
 	foreach (@num)
 	{
-		if($_==1)
+		if($_=="1")
 		{
 			print "one";
 		}elsif($_=="2")
